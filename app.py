@@ -39,7 +39,7 @@ if st.button("కథ & ప్రాంప్ట్ తయారు చేయి"
             
             with st.spinner("కథ మరియు ప్రాంప్ట్స్ తయారవుతున్నాయి..."):
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model='gemini-3.6-flash',
                     contents=[story_prompt],
                 )
             
